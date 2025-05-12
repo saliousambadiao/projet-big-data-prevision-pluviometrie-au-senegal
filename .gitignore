@@ -1,0 +1,78 @@
+# Fichiers générés par le système
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environnements Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.ipynb_checkpoints
+.python-version
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Fichiers logs / rapport d'erreurs
+*.log
+logs/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Fichiers d'IDE/éditeurs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+
+# Fichiers spécifiques au projet
+# Données - Commenter cette ligne pour inclure les données dans le dépôt si désiré
+/data/*.csv
+
+# Modèles entraînés - volumineux, peuvent être recréés
+/models/*
+!models/.gitkeep
+
+# Fichiers de sortie - images et visualisations
+/output/predictions/*
+!output/predictions/.gitkeep
+/output/figures/*
+!output/figures/.gitkeep
+
+# Garder les dossiers vides avec .gitkeep
+!*/.gitkeep
+
+# Fichiers de configuration avec des informations sensibles
+config.ini
+secrets.json
+credentials.json
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+*~.nib
+*~
+
+# Les fichiers à garder explicitement malgré les règles ci-dessus
+# !data/README.md
+# !important.csv
