@@ -105,6 +105,13 @@ Ce projet implémente un système de prédiction pluviométrique pour le Sénég
 - Prophet (pour les prédictions à long terme)
 
 ### Installation des dépendances
+Créer un environnement virtuel et activer-le :
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Sur Linux/Mac
+venv\Scripts\activate    # Sur Windows
+```
 
 ```bash
 pip install pyspark pandas numpy matplotlib prophet
